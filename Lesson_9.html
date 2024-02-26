@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" type="text/css" href=""">
+    <style>
+        .container {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(79, 130, 224);
+            height: 70px;
+            padding: 0px 300px;
+            color: white;
+
+        }
+        .header-left {
+            font-size: 25px;
+        }
+        .header-mid {
+            display: flex;
+            flex-direction: row;
+            font-size: 15px;
+            justify-content: space-between;
+            text-decoration: none;
+        }
+        ul {
+            margin-left: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        ul > li > a  {
+            text-decoration: none;
+            color: white;
+        }
+        .header-right > button {
+            display: flex;
+            border-radius: 20px;
+            background-color: rgb(234, 39, 202);
+            border: 1px solid;
+            color: white;
+            padding: 10px;
+            margin: 15px 0px 15px;
+        }
+        
+        #introduction {
+            display: flex;
+            flex-direction: column;
+            padding: 50px 350px;
+            text-align: center;
+        }
+        .avatar > img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .introdution-content {
+            font-size: 22px;
+        }
+        .follow-me > button {
+            border: 1px solid ;
+            border-radius: 20px;
+            height: 30px;
+            color: rgb(79, 130, 224);
+        }
+        .experience {
+            padding: 50px 350px;
+        }
+        h2 {
+            justify-content: center;
+        }
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .place {
+            background-color: rgb(79, 130, 224);
+            color: white;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class=" container">
+        <div id="header">
+            <div class="header-left">
+            <p>My CV</p>
+            </div>
+            <div class="header-mid">
+            <ul>
+                <li><a href="">Work Experience</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">Hobbies</a></li>
+            </ul>
+            </div>
+            <div class="header-right">
+            <button>DOWNLOAD</button>
+            </div>
+        </div>
+
+        <div id="introduction">
+            <div class="avatar">
+            <img src="./avatar.png">
+            </div>
+            <div class="introdution-content">
+            <p>
+                Hello! I am <strong>Duong</strong>, a full-stack developer. With my skills and experience, I'm capable
+                of working on both the front-end and back-end aspects of web applications. I'm passionate about creating
+                comprehensive and flexible technology products, from designing interfaces to building databases and
+                handling server requests.
+            </p>
+            </div>
+            <div class="follow-me">
+                <button>Follow me</button>
+            </div>
+        </div>
+
+        <div class="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-content">
+                <hr>
+                <div class="title">
+                    <h3>Senior Full-Stack Developer</h3>
+                    <p>January 2020 - Present</p>
+                </div>
+                <div>
+                    <span class="place">XYZ Tech Solution, Anytown</span>
+                </div>
+                <div>
+                    <p>Spearheaded the development of a new web application from concept to launch, utilizing a tech stack
+                        including Reac.js, Node.js, and MongoDB</p>
+                    <p>Collaborated closely with desgin and product team to ensure the seamless intergration of user
+                        interface designs with backend functionalities.</p>
+                </div>
+            </div>
+        
+            <div class="experience-content">
+                <hr>
+                <div class="title">
+                    <h3>Front-End Developer</h3>
+                    <p>June 2017 - December 2019</p>
+                </div>
+                <div>
+                    <p>Tech Innovation, Somewhereville</p>
+                </div>
+                <div>
+                    <p>Developed responsive and user-friendly interfaces for multiple client projects using HTML, CSS, and
+                        JavaScrip frameworks such as Angular and Vue.js.</p>
+                    <p>Worked closely with UX/UI designers to tranlate wireframes and mockups into interactive web
+                        experiences, ensuring consistency in design and functionality across different browsers and devices.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="experience-content">
+                <hr>
+                <div class="title">
+                    <h3>Software Engineering Intern</h3>
+                    <span>Summer 2016</span>
+                </div>
+                <div>
+                    <span>TechStart, Inc, Cityville </span>
+                </div>
+                <div>
+                    <span>Assisted in the development of a mobile application using Swift for iOS platform, contributing to
+                        the implementation of the features such as real-time messaging and geological tracking.</span>
+                    <span>Anticipated in daily stand-up meeting and sprint planning sessions, gaining exposure to Agile
+                        development methodologies and project management tool such as Jira</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="experience">
+        <div>
+            <h2>Education</h2>
+        </div>
+        <div class="experience-content">
+            <hr>
+            <div class="title">
+                <h3>Bachelar of Science in Computer Sience</h3>
+                <span>Graduation: May 20xx</span>
+            </div>
+            <div>
+                <span>University Name, City, Sate</span>
+            </div>
+            <div>
+                <span>Relevant courework: Data Structure Algorithms, Web Development, Data Systems, Software Enginerring.</span>
+                
+            </div>
+        </div>
+
+        <div class="experience-content">
+            <hr>
+            <div class="title">
+                <h3>Bootcamp in Web Development</h3>
+                <span>Completion: August 20xx</span>
+            </div>
+            <div>
+                <span>Codding Bootcamp, City, State</span>
+            </div>
+            <div>
+                <span>Intensive training program covering HTML, CSS, JavaScript, Node.js, Express.js and MongoDB.</span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+
+</html>
